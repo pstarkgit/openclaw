@@ -1,0 +1,81 @@
+{
+  "pr": 183770,
+  "head": "374f2567a486fa1b5581ab07164ade289755bb61",
+  "baseline": "3303e8489906adec524b119f8e808b3fc1aa374b",
+  "runtime": {
+    "head": "374f2567a486fa1b5581ab07164ade289755bb61",
+    "guestAppPID": 77876,
+    "windowID": 983,
+    "authenticatedWebClientLog": [
+      "2026-10-25T19:55:17.970-06:00 [ws] client connected conn=af055e9f-8f63-4e3a-ae89-dc5d6d650d90 client=openclaw-macos name=openclaw-macos mode=ui role=operator auth=token version=2026.10.7 platform=macOS 27.0.1 build=2026.10.7-3303e8489906-2026-10-26T00-04-48.000Z remote=127.0.0.1"
+    ],
+    "anonymousShellStatus": 200,
+    "anonymousShellContainsFreshMarker": false,
+    "anonymousShellSha256": "e071b79958cde4574be47b16ea38c7a5435707d93633372375ae1506a7716f26",
+    "inject": {
+      "marker": "NATIVE_FINAL_374F_VISIBLE_LIVE_183770_1792979894542",
+      "at": "2026-10-26T01:58:14.702Z",
+      "method": "chat.inject",
+      "sessionKey": "agent:main:main",
+      "negotiatedScopes": [
+        "operator.admin",
+        "operator.read",
+        "operator.write"
+      ],
+      "response": {
+        "ok": true,
+        "messageId": "6fbc4423-ab76-4314-8b4f-18b0f54a87af"
+      },
+      "modelMessageSent": false
+    },
+    "actualWebViewObservedFreshMarker": true,
+    "nativeFooterGatewayConnected": true,
+    "webFooterConnected": true,
+    "modelMessagesSent": false,
+    "normalWindowActivation": "Exact guest native window was normally brought forward from behind Dashboard; no reload/config/source change"
+  },
+  "bundle": {
+    "variant": "final",
+    "sourceCommit": "374f2567a486fa1b5581ab07164ade289755bb61",
+    "bundle": "/Users/pstark/workplace/oc-native183770/artifacts/OpenClaw-final-374f.app",
+    "treeSha256": "21f4bc4566947a1db3f23ff439ecfbbc5e924cf008ab72f3f38a5251cecbf44f",
+    "files": 36492,
+    "logicalBytes": 1365921144,
+    "signatureVerified": true,
+    "bundleID": "ai.openclaw.mac.debug",
+    "version": "2026.10.7",
+    "build": "2610000790",
+    "runtimeBuildID": "2026.10.7-374f2567a486-2026-10-26T01-40-29.000Z",
+    "buildConfiguration": "debug",
+    "MLXTTS": "documented debug proof skip; not voice acceptance",
+    "swiftSubprocessSandbox": "disabled via supported SwiftPM option after preserved CoreServices plugin stall; no guest runtime boundary changed"
+  },
+  "constructor": {
+    "head": "e321c98c4d8dfeaaef77ce0ab6b563cc246f5f77",
+    "pathUnchangedInFinal": true,
+    "cases": 2,
+    "passed": true,
+    "draft": "C++ & café 🦀",
+    "foregroundComposerFirstResponder": true,
+    "backgroundSentinelRetainedKey": true,
+    "modelMessageSent": false
+  },
+  "images": {
+    "before.png": {
+      "sha256": "b5d5f08b9c7edca82f9885d99808f95c60e3ba889c7e8627a5bb934ff7d1b2fa",
+      "bytes": 260814
+    },
+    "after-final.png": {
+      "sha256": "754090a9a24035d3d800cccf231d57236925f59fbf01c911a62e0d7ede97ea85",
+      "bytes": 436657
+    },
+    "draft-foreground.png": {
+      "sha256": "a94020d89c46776bc0972e91d598ba6a5a9947ee44f2615820b7c9ea8139c079",
+      "bytes": 281659
+    },
+    "draft-background.png": {
+      "sha256": "1618d847f9f1f77b28085bde0ace41f6c40dcd5ea136838634516932d5e3ff16",
+      "bytes": 109511
+    }
+  }
+}
